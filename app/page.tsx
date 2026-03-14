@@ -7,7 +7,7 @@ import Skills from "@/sections/Skills";
 export default function Home() {
   return (
     <div>
-      <div>
+      <div id="home">
         <Hero />
       </div>
 
@@ -15,15 +15,15 @@ export default function Home() {
         <Earth />
       </div>
 
-      <div>
+      <div id="about">
         <AboutPage />
       </div>
 
-      <div>
+      <div id="skills">
         <Skills />
       </div>
 
-      <div>
+      <div id="projects">
         <Projects />
       </div>
     </div>

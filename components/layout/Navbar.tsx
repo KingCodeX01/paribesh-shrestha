@@ -2,6 +2,7 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
     IconBrandGithub,
+    IconBrandLinkedin,
     IconBrandX,
     IconExchange,
     IconHome,
@@ -16,42 +17,42 @@ export function Navbar() {
             icon: (
                 <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "#home",
         },
         {
             title: "Projects",
             icon: (
                 <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "#projects",
         },
         {
             title: "About",
             icon: (
                 <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "#about",
         },
+        // {
+        //     title: "Changelog",
+        //     icon: (
+        //         <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        //     ),
+        //     href: "#",
+        // },
         {
-            title: "Changelog",
+            title: "LinkedIn",
             icon: (
-                <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
-        },
-        {
-            title: "Twitter",
-            icon: (
-                <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#",
+            href: "https://www.linkedin.com/in/paribesh-shrestha-092483259/",
         },
         {
             title: "GitHub",
             icon: (
                 <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#",
+            href: "https://github.com/KingCodeX01",
         },
     ];
 

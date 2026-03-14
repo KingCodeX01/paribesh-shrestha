@@ -87,11 +87,10 @@ export function Earth() {
         <div className="relative mx-auto h-[400px] w-full max-w-7xl overflow-hidden bg-white dark:bg-neutral-950">
             <div className="relative z-10 p-4 md:p-12">
                 <h2 className="mb-4 max-w-2xl text-2xl font-extrabold tracking-tight text-balance text-neutral-900 md:text-5xl lg:text-6xl dark:text-white">
-                    Play all over the world with a click.
+                    The world is your playground.
                 </h2>
                 <p className="mt-2 max-w-lg text-balance text-neutral-600 md:mt-8 md:text-lg dark:text-neutral-400">
-                    Sign up for an account and start posting all over the world with one
-                    click.
+                    Don’t limit yourself by doubt. Dream bigger, build boldly, and become the person you truly want to be.
                 </p>
 
                 <div className="mt-4 flex gap-4 md:mt-8">
@@ -103,7 +102,6 @@ export function Earth() {
                     </button>
                 </div>
             </div>
-            {/* Globe container - sized and positioned just for the globe */}
             <div className="absolute -right-1 -bottom-96 z-10 size-160 md:-bottom-80 md:size-180">
                 <Globe3D
                     className="h-full w-full"

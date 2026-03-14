@@ -45,11 +45,11 @@ export function Hero() {
                         className="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4"
                     >
                         <button className="w-60 rounded-lg bg-black px-6 py-2 font-medium text-white">
-                            Explore Now
+                            Coming Soon
                         </button>
 
                         <button className="w-60 rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black">
-                            Contact Support
+                            Coming Soon
                         </button>
                     </motion.div>
 
