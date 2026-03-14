@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { AnimatedTooltip } from "../ui/animated-tooltip";
+import { Clock } from "../ui/clock";
 const people = [
     {
         id: 1,
@@ -48,12 +49,23 @@ const people = [
 
 export function Footer() {
     return (
-        <div className="max-w-7xl mx-auto h-[200px] flex items-center flex-col">
-            <div className="flex items-center mb-5 mt-10 ml-1 w-full font-bold text-2xl">
-                Wonderful People
-            </div>
-            <div className="flex flex-row items-center mb-10 w-full">
-                <AnimatedTooltip items={people} />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6">
+
+                <div className="w-full sm:w-auto">
+                    <div className="flex items-center mb-3 sm:mb-5 font-bold text-xl sm:text-2xl">
+                        Wonderful People
+                    </div>
+                    <div className="flex flex-row items-center w-full">
+                        <AnimatedTooltip items={people} />
+                    </div>
+                </div>
+
+                <div className="flex flex-row sm:flex-col items-center sm:items-end justify-between sm:justify-center w-full sm:w-auto gap-3 sm:gap-0">
+                    <div className="text-sm sm:text-base whitespace-nowrap">Limited Time!</div>
+                    <Clock />
+                </div>
+
             </div>
         </div>
     );
