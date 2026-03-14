@@ -3,29 +3,35 @@ import AboutPage from "./about/page";
 import { Earth } from "@/sections/Earth";
 import { Projects } from "@/sections/Projects";
 import Skills from "@/sections/Skills";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Welcome to Paribesh Shrestha's portfolio. Full Stack Developer showcasing projects, skills, and professional experience in web development.",
+};
 
 export default function Home() {
   return (
-    <div>
-      <div id="home">
+    <main>
+      <section id="home" aria-label="Hero section">
         <Hero />
-      </div>
+      </section>
 
-      <div>
+      <section aria-label="Interactive globe visualization">
         <Earth />
-      </div>
+      </section>
 
-      <div id="about">
+      <section id="about" aria-label="About section">
         <AboutPage />
-      </div>
+      </section>
 
-      <div id="skills">
+      <section id="skills" aria-label="Skills section">
         <Skills />
-      </div>
+      </section>
 
-      <div id="projects">
+      <section id="projects" aria-label="Projects section">
         <Projects />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }

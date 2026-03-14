@@ -1,0 +1,7 @@
+This is a placeholder for twitter-image.jpg (1200x675)
+Please create an actual image file at this location for optimal Twitter sharing.
+The image should show:
+- Paribesh Shrestha's name
+- "Full Stack Developer" title
+- Professional design optimized for Twitter cards
+- Size: 1200x675 pixels

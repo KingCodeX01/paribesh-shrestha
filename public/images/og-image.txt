@@ -1,0 +1,7 @@
+This is a placeholder for og-image.jpg (1200x630)
+Please create an actual image file at this location for optimal social media sharing.
+The image should show:
+- Paribesh Shrestha's name
+- "Full Stack Developer" title
+- Professional design with your brand colors
+- Size: 1200x630 pixels

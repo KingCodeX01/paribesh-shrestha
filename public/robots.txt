@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://paribeshshrestha.com.np/sitemap.xml
+
+# Block common non-content paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /favicon.ico
+Disallow: /gif/
+
+# Allow search engines to crawl important content
+Allow: /about
+Allow: /projects
+Allow: /skills
+
+# Crawl delay (optional)
+Crawl-delay: 1
