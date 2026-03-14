@@ -58,7 +58,7 @@ export function Navbar() {
     return (
         <FloatingDock
             items={links}
-            desktopClassName="fixed bottom-6 left-1/2 -translate-x-1/2 z-[999] !bg-black"
+            desktopClassName="fixed bottom-15 left-1/2 -translate-x-1/2 z-[999] !bg-black"
             mobileClassName="fixed bottom-6 right-6 z-[999]"
         />
     );
