@@ -35,7 +35,7 @@ export function Hero() {
                         transition={{ delay: 0.8 }}
                         className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg text-white dark:text-neutral-400"
                     >
-                        With AI, you can launch your website in hours, not days.
+                        Backend Developer and Data Enginner with a passion for creating innovative solutions.
                     </motion.p>
 
                     <motion.div

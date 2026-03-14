@@ -1,10 +1,18 @@
+import { SectionHeader } from "@/components/ui/SectionHeader";
 import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function Projects() {
     return (
-        <div className="w-full bg-slate-950">
-            <div className="max-w-5xl mx-auto px-8">
-                <HoverEffect items={projectsDetails} />
+        <div className="w-full bg-slate-950 flex flex-col items-center py-10">
+            <div className="max-w-7xl">
+                <SectionHeader
+                    title="Projects"
+                    subtitle="03"
+                    variant="light"
+                />
+                <div className="max-w-7xl mx-auto px-8">
+                    <HoverEffect items={projectsDetails} />
+                </div>
             </div>
         </div>
     );
