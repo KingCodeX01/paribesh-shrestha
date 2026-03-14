@@ -14,8 +14,8 @@ const skills = [
     { name: "Python", level: "Intermediate" },
     { name: "Docker", level: "Beginner" },
     { name: "Figma", level: "Intermediate" },
-    { name: "Jest", level: "Beginner" },
-    { name: "Prisma", level: "Intermediate" },
+    { name: "ASP.NET", level: "Beginner" },
+    { name: "MySql", level: "Intermediate" },
     { name: "PostgreSQL", level: "Intermediate" },
 ]
 

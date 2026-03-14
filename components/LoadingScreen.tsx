@@ -30,10 +30,10 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
           width={200}
           height={200}
           className="object-contain"
-          unoptimized // Important for GIFs in Next.js
+          unoptimized
         />
         <div className="mt-4 text-center">
-          <p className="text-white text-lg animate-pulse">Loading amazing content...</p>
+          <p className="text-white text-lg animate-pulse">Loading content...</p>
         </div>
       </div>
     </div>

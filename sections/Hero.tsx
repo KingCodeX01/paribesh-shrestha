@@ -7,6 +7,7 @@ export function Hero() {
         <section className="bg-slate-950">
             <div className="relative">
                 <LampContainer className="min-h-[450px]">
+                    <div></div>
                 </LampContainer>
                 <div className="relative mx-auto -mt-64 flex max-w-7xl flex-col items-center justify-center px-4 pb-20">
 

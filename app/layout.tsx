@@ -23,6 +23,17 @@ export const metadata: Metadata = {
     template: "%s | Paribesh Shrestha"
   },
   description: "Paribesh Shrestha - Full Stack Developer specializing in ASP.NET, React, Next.js, TypeScript, and modern web technologies. Building innovative digital solutions with clean code and exceptional user experiences.",
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
   keywords: [
     "Paribesh Shrestha",
     "Full Stack Developer",
